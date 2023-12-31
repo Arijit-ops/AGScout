@@ -5,7 +5,7 @@ from googlesearch import search
 
 
 # Assuming 'df' is your DataFrame
-df = pd.read_csv("I:\\Dataset\FC 24\male_players.csv")
+df = pd.read_csv("https://drive.google.com/file/d/19uKAvinaof-210NlmFS1uL4kyKZ4SpJv/view?usp=sharing")
 df['UID'] = range(1, len(df) + 1)
 
 def namesearch(name):
